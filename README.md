@@ -75,12 +75,12 @@ All models are trained and evaluated on the **same 900-sample dataset split** fo
 ## 📉 Visualizations
 
 ### EDA — Class Distribution & Text Length
-![EDA](eda_plots.png)
+![EDA](outputs/eda_plots.png)
 
 ---
 
 ### Confusion Matrices (val set, n=180)
-![Confusion Matrices](confusion_matrices.png)
+![Confusion Matrices](outputs/confusion_matrices.png)
 
 | Model | True Human | False AI | False Human | True AI |
 |-------|-----------|----------|-------------|---------|
@@ -93,19 +93,19 @@ All models are trained and evaluated on the **same 900-sample dataset split** fo
 ---
 
 ### Model Comparison — All Metrics
-![Metrics Comparison](metrics_comparison.png)
+![Metrics Comparison](outputs/metrics_comparison.png)
 
 ---
 
 ### ROC Curve Comparison
-![ROC Curves](roc_curves.png)
+![ROC Curves](outputs/roc_curves.png)
 
 All models achieve **AUC > 0.994** — excellent discrimination between AI and Human text.
 
 ---
 
 ### Accuracy vs F1 Score
-![Accuracy vs F1](accuracy_f1_line.png)
+![Accuracy vs F1](outputs/accuracy_f1_line.png)
 
 ---
 
@@ -115,15 +115,13 @@ All models achieve **AUC > 0.994** — excellent discrimination between AI and H
 ai-vs-human-classifier/
 │
 ├── classifier.py              # Main training & evaluation script
-├── .gitignore
-├── README.md
-│
-└── outputs/                   # Auto-generated after running
-    ├── eda_plots.png
-    ├── confusion_matrices.png
-    ├── metrics_comparison.png
-    ├── roc_curves.png
-    └── accuracy_f1_line.png
+├── .gitignore                 # Ignores venv, CSV, cache
+├── README.md                  # Project documentation
+├── eda_plots.png              # Class distribution & text length plots
+├── confusion_matrices.png     # Confusion matrices for all 5 models
+├── metrics_comparison.png     # Grouped bar chart of all metrics
+├── roc_curves.png             # ROC curves for all 5 models
+└── accuracy_f1_line.png       # Accuracy vs F1 line plot
 ```
 
 ---
@@ -177,6 +175,12 @@ python classifier.py
 - PyTorch 2.0+
 - HuggingFace Transformers 4.30+
 - 8GB+ RAM recommended
+
+---
+
+## 📄 License
+
+[MIT License](LICENSE)
 
 ---
 
