@@ -28,8 +28,7 @@ All models are trained and evaluated on the **same 900-sample dataset split** fo
 | Human-written (0) | 562 |
 | AI-generated (1) | 338 |
 
-> ⚠️ Dataset not included (1GB+). Download here: **[Download AI_Human.csv](#)** ← *(replace with your Google Drive link)*
-
+> ⚠️ Dataset not included (1GB+). Download here: **[Download AI_Human.csv](https://drive.google.com/file/d/1rOgSe4_MzsG1gxkwpTVjXde58hNF78rl/view?usp=sharing)**
 ---
 
 ## 🧠 Models Compared
