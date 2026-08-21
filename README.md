@@ -12,7 +12,7 @@
 
 ## 📌 Overview 
 
-This project fine-tunes and benchmarks **5 state-of-the-art transformer models** on a binary text classification task — distinguishing between **AI-generated** and **Human-written** text.
+This project fine-tunes and benchmarks **5 state-of-the-art transformer models** on a binary text classification task — distinguishing between **AI-generated** and **Human-written** text. 
 
 All models are trained and evaluated on the **same 900-sample dataset split** for a fair comparison. The best model (**ALBERT-base-v2**) achieved **98.3% accuracy** and **98.7% F1 score**.
 
