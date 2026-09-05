@@ -1,11 +1,3 @@
-# =====================================================
-# Install Libraries
-# =====================================================
-# !pip install -U transformers datasets scikit-learn matplotlib seaborn pandas
-
-# =====================================================
-# Imports
-# =====================================================
 import torch
 import numpy as np
 import pandas as pd
@@ -231,7 +223,7 @@ def train_model(model_name: str) -> None:
     )
 
     print(
-        f"\n  ✅ {short_name}  →  "
+        f"\n   {short_name}  →  "
         f"Acc={eval_results['eval_accuracy']:.4f}  "
         f"F1={eval_results['eval_f1']:.4f}  "
         f"AUC={roc_auc:.4f}"
