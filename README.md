@@ -1,4 +1,4 @@
-# 🤖 AI vs Human Text Classifier
+# 🤖 AI vs Human Text Classifier 
 
 > Fine-tuning and benchmarking 5 transformer models to detect AI-generated text
 
